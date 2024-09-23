@@ -20,8 +20,8 @@
     
     <nav class="w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50">
 
-      <img src="./images/logo.png" alt="Logo" class="w-28 cursor-pointer mr-14 dark:hidden" />
-      <img src="./images/logo_dark.png" alt="Logo" class="w-28 cursor-pointer mr-14 hidden dark:block" />
+      <h1 class="w-30 text-4xl font-bold pb-2 text-black-600 cursor-pointer dark:hidden"><span class="text-blue-600">A</span>bhishek<span class="text-5xl text-blue-600">.</span></h1>
+      <h1 class="w-30 text-4xl font-bold pb-2 text-white-600 cursor-pointer hidden dark:block" ><span class="text-blue-400">A</span>bhishek<span class="text-5xl text-blue-400">.</span></h1>
 
       <ul class="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50 font-ovo dark:border dark:border-white/50 dark:bg-transparent">
         <li><a href="#top">Home</a></li>
@@ -36,7 +36,7 @@
           <img src="./images/moon_icon.png" alt="" class="w-6 dark:hidden">
           <img src="./images/sun_icon.png" alt="" class="w-6 hidden dark:block">
         </button>
-        <a href="#contact" class="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-ovo dark:border-white/50">Contact 
+        <a href="./images/logo.png" download class="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-ovo dark:border-white/50">Resume
           <img src="./images/arrow-icon.png" alt="" class="w-3 dark:hidden"/>
           <img src="./images/arrow-icon-dark.png" alt="" class="w-3 hidden dark:block"/>
         </a>
@@ -67,10 +67,23 @@
     <!-- --- header --- -->
 
     <div class="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4 ">
-      <img src="./images//profile-img.png" alt="" class="rounded-full w-32">
-      <h3 class="flex items-end gap-2 text-xl md:text-2xl mb-3 font-ovo">Hi Im eliana <img src="./images/hand-icon.png" alt="" class="w-6"></h3>
-      <h1 class="text-3xl sm:text-6xl lg:text-[66px] font-ovo">frontend web developer</h1>
-      <p class="max-w-2xl mx-auto font-ovo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos pariatur reprehenderit et repellendus consectetur alias.</p>
+      <h3 class="flex items-end gap-2 text-xl md:text-2xl mb-3 font-ovo mt-10">HI THERE <img src="./images/hand-icon.png" alt="" class="w-6 mb-1"></h3>
+      <h1 class="text-3xl sm:text-6xl lg:text-[50px] font-ovo">I'm <span class="typed text-blue-400" data-typed-items="Designer,Freelancer,You Tuber,Developer,Coder,Hacker"></span></h1>
+      <p class="max-w-2xl text-2xl py-5 mx-auto font-ovo">I am a skilled and passionate developer with experience in creating visually appealing and user friendly applications.</p>
+      
+      <ul class="flex gap-4">
+        <a href="#">
+            <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-full cursor-pointer hover:-translate-y-1 duration-500 bg-white">
+                <img src="./images/linkedin.png" alt="" class="w-5 sm:w-7">
+            </li>
+        </a>
+        <a href="#">
+            <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-full cursor-pointer hover:-translate-y-1 duration-500 bg-white">
+                <img src="./images/github.png" alt="" class="w-5 sm:w-7">
+            </li>
+        </a>
+    </ul>
+    
 
       <div class="flex flex-col sm:flex-row items-center gap-4 mt-4">
         <a href="#contact" class="px-10 py-3 border rounded-full bg-gradient-to-r from-[#b820e6] to-[#da7d20] text-white flex items-center gap-2 dark:border-transparent">Contact Me <img src="./images/right-arrow-white.png" alt="" class="w-4"></a>  
@@ -84,14 +97,9 @@
       <h4 class="text-center mb-2 text-lg font-ovo">Introduction</h4>
       <h2 class="text-center text-5xl font-ovo">About Me</h2>
 
-      <div class="flex w-full flex-col lg:flex-row items-center gap-20 my-20">
-        <div class="max-w-max mx-auto relative">
-          <img src="./images/user-image.png" alt="" class="w-64 sm:w-80 rounded-3xl max-w-none">
-
-          <div class="bg-white w-1/2 aspect-square absolute right-0 bottom-0 rounded-full translate-x-1/4 translate-y-1/3 shadow-[0_4px_55px_rgba(149,0,162,0.15)] flex items-center justify-center">
-              <img src="./images/circular-text.png" alt="" class="w-full animate-spin_slow">
-              <img src="./images/dev-icon.png" alt="" class="w-1/4 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-          </div>
+      <div class="flex w-full flex-col lg:flex-row items-center gap-20 my-10">
+        <div class="max-w-max mx-auto">
+          <img src="./images/education_white.png" alt="" class=" sm:w-80 rounded-3xl max-w-none">
         </div>
 
         <div class="flex-1">
@@ -120,20 +128,23 @@
 
             <h4 class="my-6 text-gray-700 font-ovo dark:text-white/80">Tools i use</h4>
             <ul class="flex items-center gap-3 sm:gap-5">
-              <li class="flex items-center justify-center w-12 sm:w-14 aspect-square  border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+              <li class="flex items-center justify-center w-12 sm:w-14 aspect-square  border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 bg-white">
                 <img src="./images/vscode.png" alt="" class="w-5 sm:w-7">
               </li>
-              <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+              <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 bg-white">
                 <img src="./images/firebase.png" alt="" class="w-5 sm:w-7">
               </li>
-              <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+              <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 bg-white">
                 <img src="./images/mongodb.png" alt="" class="w-5 sm:w-7">
               </li>
-              <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-                <img src="./images/figma.png" alt="" class="w-5 sm:w-7">
+              <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 bg-white">
+                <img src="./images/linkedin.png" alt="" class="w-5 sm:w-7">
               </li>
-              <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+              <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 bg-white">
                 <img src="./images/git.png" alt="" class="w-5 sm:w-7">
+              </li>
+              <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 bg-white">
+                <img src="./images/github.png" alt="" class="w-5 sm:w-7">
               </li>
             </ul>
 
@@ -174,9 +185,8 @@
             <a href="" class="flex items-center gap-2 text-sm mt-5">Read more <img src="./images/right-arrow.png" alt="" class="w-4"></a>
           </div>
       </div>
-
     </div>
-
+  
     <!-- --- works --- -->
 
     <div id="work" class="w-full px-[12%] py-10 scroll-mt-20">
@@ -186,51 +196,39 @@
 
       <div class="grid grid-cols-auto my-10 gap-5 dark:text-black">
           <div class="aspect-square bg-[url('./images/work-1.png')] bg-no-repeat bg-cover bg-center rounder-lg relative cursor-pointer group">
-              <div class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
-                <div>
+              <div class="flex-col bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                   <h2 class="font-semibold">Frontend Projects</h2>
-                  <p class="text-sm text-gray-700">Web Design</p>
-                </div>
                 <div class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
                   <img src="./images/send-icon.png" alt="" class="w-5">
                 </div>
               </div>
           </div>
           <div class="aspect-square bg-[url('./images/work-2.png')] bg-no-repeat bg-cover bg-center rounder-lg relative cursor-pointer group">
-            <div class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
-              <div>
+            <div class="flex-col bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                 <h2 class="font-semibold">Frontend Projects</h2>
-                <p class="text-sm text-gray-700">Web Design</p>
-              </div>
               <div class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
                 <img src="./images/send-icon.png" alt="" class="w-5">
               </div>
             </div>
         </div>
         <div class="aspect-square bg-[url('./images/work-3.png')] bg-no-repeat bg-cover bg-center rounder-lg relative cursor-pointer group">
-          <div class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
-            <div>
+          <div class="flex-col bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
               <h2 class="font-semibold">Frontend Projects</h2>
-              <p class="text-sm text-gray-700">Web Design</p>
-            </div>
             <div class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
               <img src="./images/send-icon.png" alt="" class="w-5">
             </div>
           </div>
         </div>
         <div class="aspect-square bg-[url('./images/work-4.png')] bg-no-repeat bg-cover bg-center rounder-lg relative cursor-pointer group">
-          <div class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
-            <div>
-              <h2 class="font-semibold">Frontend Projects</h2>
-              <p class="text-sm text-gray-700">Web Design</p>
-            </div>
+          <div class=" flex-col bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
+              <h2 class="font-semibold">Frontend Projects</h2>             
             <div class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
               <img src="./images/send-icon.png" alt="" class="w-5">
             </div>
           </div>
         </div>
       </div>
-      <a href="#" class="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duratiom-500 dark:text-white dark:border-white dark:hover:bg-darkHover">Show More
+      <a href="#" class="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-5 hover:bg-lightHover duratiom-500 dark:text-white dark:border-white dark:hover:bg-darkHover">Show More
           <img src="./images/right-arrow-bold.png" alt="" class="w-4 dark:hidden">
           <img src="./images/right-arrow-bold-dark.png" alt="" class="w-4 hidden dark:block">
       </a>
@@ -257,19 +255,19 @@
 
     <!-- ---footer--- -->
 
-    <div class="mt-20">
+    <div class="mt-10">
       <div class="text-center">
-        <img src="./images/logo.png" alt="" class="w-36 mx-auto mb-2 dark:hidden">
-        <img src="./images/logo_dark.png " alt="" class="w-36 mx-auto mb-2 hidden dark:block">
+        <h1 class="w-36 mx-auto mb-2 text-4xl font-bold text-black-600 cursor-pointer  dark:hidden"><span class="text-blue-400">A</span>bhishek<span class="text-5xl text-blue-400">.</span></h1>
+        <h1 class="w-36 mx-auto mb-2 text-4xl font-bold text-white-600 cursor-pointer  hidden dark:block" ><span class="text-blue-400">A</span>bhishek<span class="text-5xl text-blue-400">.</span></h1>
         <div class="w-max flex items-center gap-2 mx-auto">
           <img src="./images/mail_icon.png" alt="" class="w-6 dark:hidden">
           <img src="./images/mail_icon_dark.png" alt="" class="w-6 hidden dark:block">
-          abhi@gmail.com
+          abhishekkj6810@gmail.com
         </div>
       </div>
 
       <div class="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6">
-        <p>© 2024 Eliana Jade. All rights reserved.</p>
+        <p>© 2024 Abhishek. All rights reserved.</p>
 
         <ul class="flex item-center gap-10 justify-center mt-4 sm:mt-0">
           <li><a href="">LinkedIn</a></li>
@@ -279,6 +277,9 @@
       </div>
     </div>
 
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="./script.js"></script>
+
+    
   </body>
 </html>
